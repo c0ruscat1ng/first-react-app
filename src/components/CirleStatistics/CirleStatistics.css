@@ -1,0 +1,45 @@
+.CirleStatistics__circle {
+  --size:135px;
+  width: var(--size);
+  height: var(--size);
+  position: relative;
+  margin-bottom: 20px;
+}
+.CirleStatistics svg {
+  fill: transparent;
+}
+.CirleStatistics svg circle {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  stroke-width: 6px;
+  transition: 0.5s linear;
+  stroke-linecap: round;
+}
+.CirleStatistics svg circle:first-of-type {
+  stroke: var(--grey);
+  opacity: 0.2;
+}
+.CirleStatistics svg .CirleStatistics__circle-disabled {
+  stroke: url(#grey);
+}
+.CirleStatistics svg .CirleStatistics__circle-primary {
+  stroke: url(#primary);
+}
+.CirleStatistics__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: 500;
+}
+.CirleStatistics__content.disabled {
+  opacity: 0.5;
+}
+.CirleStatistics__label {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/*# sourceMappingURL=CirleStatistics.css.map */

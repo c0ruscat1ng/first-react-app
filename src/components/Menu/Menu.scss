@@ -1,0 +1,26 @@
+.Menu{
+  &__item{
+    position: relative;
+    cursor: pointer;
+    &.active{
+      i{
+        color: var(--active);
+      }
+    }
+    i{
+      font-size: 24px;
+    }
+  }
+  &__item-dot{
+    --size:9px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: var(--size);
+    background:#614AD3;
+    filter: blur(0.7px);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

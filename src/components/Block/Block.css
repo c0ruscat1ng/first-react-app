@@ -1,0 +1,14 @@
+.Block {
+  background: var(--dark);
+  padding: 12px;
+  border-radius: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.Block.big {
+  justify-content: space-between;
+  padding: 23px 36px;
+}
+
+/*# sourceMappingURL=Block.css.map */

@@ -1,0 +1,19 @@
+import React from 'react';
+import './Button.scss'
+
+const Button = (props) => {
+    const {onClick,children,className}=props
+    let cls="Button"
+
+    if(className){
+        cls += ` ${className}`
+    }
+
+    return (
+        <div className={cls} onClick={onClick}>
+            <span>{children}</span>
+        </div>
+    );
+};
+
+export default Button;

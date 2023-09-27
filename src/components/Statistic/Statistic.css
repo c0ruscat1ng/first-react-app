@@ -1,0 +1,16 @@
+.Statistic__label {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.Statistic_2col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Statistic__balance {
+  font-size: 37px;
+}
+
+/*# sourceMappingURL=Statistic.css.map */
